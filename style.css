@@ -90,13 +90,6 @@ body{
     justify-content: center;
 }
 
-.parametro-senha__botao{
-
-}
-.parametro-senha__texto{
-
-}
-
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
@@ -116,4 +109,12 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
 }
